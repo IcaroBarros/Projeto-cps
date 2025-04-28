@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>CPS test JS</title>
+</head>
+<body>
+
+    <h1>Contador de Cliques</h1>
+    <p id="Contador">0</p>
+    
+    <!-- Botões para escolher o tempo -->
+    <button onclick="definirTempo(5)">5 segundos</button>
+    <button onclick="definirTempo(10)">10 segundos</button>
+    <button onclick="definirTempo(20)">20 segundos</button>
+
+    <!-- Botão para iniciar o teste -->
+    <button onclick="iniciarTeste()">Iniciar Teste</button>
+
+    <!-- Botão para incrementar o contador -->
+    <button onclick="incrementar()">Clique aqui</button> <!-- Botão para o clique -->
+
+    <p>Tempo escolhido: <span id="tempoEscolhido">5</span> segundos</p>
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>  
+</body>
+</html>
